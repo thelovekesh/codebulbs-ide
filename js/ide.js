@@ -718,7 +718,7 @@ $(document).ready(function() {
                 minimap: {
                     enabled: false,
                 },
-                rulers: [80, 120],
+                rulers: [],
             });
 
             changeEditorMode();
