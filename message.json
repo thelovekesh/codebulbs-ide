@@ -1,9 +1,8 @@
 {
-    "duration": "45s",
+    "duration": "15s",
     "messages": [
-        "Land your next software job easily with the <a href=\"https://bit.ly/3fhoGi3\">most visual technical interview guide at AlgoDaily.com</a>.",
-        "Judge0 is available on <strong><a href=\"https://rapidapi.com/hermanzdosilovic/api/judge0\">RapidAPI</a></strong>.",
-        "Judge0 goes Freemium! Find out more <strong><a href=\"https://github.com/judge0/api/issues/171\">here</a></strong>.",
-        "Support Judge0 development on <a href=\"https://www.patreon.com/hermanzdosilovic\">Patreon</a> or via <a href=\"https://paypal.me/hermanzdosilovic\">PayPal</a>."
+        "<a href=\"https://www.patreon.com/codebulbs\">Become a Patreon</a>.",
+        "<a href=\"https://www.buymeacoffee.com/codebulbs\">Buy me a Coffee</a>.",
+        "<a href=\"https://www.payumoney.com/paybypayumoney/#/7ED98F40F286DBA4103B5AAF64EAEF55\">Make a Donation to support this project</a>."
     ]
 }

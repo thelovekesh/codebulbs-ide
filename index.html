@@ -48,15 +48,26 @@
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet" />
     <script type="text/javascript" src="third_party/download.js"></script>
     <script type="text/javascript" src="./js/ide.js"></script>
-    <link type="text/css" rel="stylesheet" href="https://ide.codebulbs.com/css/ide.min.css" />
+    <link type="text/css" rel="stylesheet" href="./css/ide.css" />
 
     <link rel="shortcut icon" href="https://ide.codebulbs.com/favicon.ico" type="image/x-icon">
     <link rel="icon" href="https://ide.codebulbs.com/favicon.ico" type="image/x-icon">
-
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script>
+        window.googletag = window.googletag || {
+            cmd: []
+        };
+        googletag.cmd.push(function() {
+            googletag.defineSlot('/22252416728/codebulbside', [120, 90], 'div-gpt-ad-1611415915363-0').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
 
 </head>
 
 <body>
+
     <div id="site-navigation" class="ui small inverted menu">
         <div id="site-header" class="header item">
             <a href="/">&nbsp;
@@ -165,7 +176,7 @@
 
         <div class="right menu">
             <div id="updates" class="link item changelogfy-widget">
-                <i class="fitted bell icon"></i>
+                <i class="fitted mail icon"></i>
             </div>
             <div class="ui dropdown item site-links">
                 More
@@ -267,14 +278,27 @@
         </div>
     </div>
 
+    <div id="site-footer-1">
+        <div class="ui banner ad" data-text="Banner">
+            <!-- /22252416728/codebulbside -->
+            <div id='div-gpt-ad-1611415915363-0' style='width: 120px; height: 90px;'>
+                <script>
+                    googletag.cmd.push(function() {
+                        googletag.display('div-gpt-ad-1611415915363-0');
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+
     <div id="site-footer">
         <span id="donate-line">
-            <a class="item" target="_blank" href="https://www.patreon.com/hermanzdosilovic"><i class="patreon icon" style="color: #f06553;"></i> Become a Patron</a>
+            <a class="item" target="_blank" href="https://www.patreon.com/codebulbs"><i class="patreon icon" style="color: #f06553;"></i> Become a Patron</a>
             ·
-            <a class="item" target="_blank" href="https://paypal.me/hermanzdosilovic"><i class="paypal icon" style="color: #00457c;"></i></i> Donate with PayPal</a>
+            <a class="item" target="_blank" href="https://www.payumoney.com/paybypayumoney/#/7ED98F40F286DBA4103B5AAF64EAEF55"><i class="dollar icon" style="color: #00457c;"></i></i> Make a donation</a>
         </span>
         <div id="editor-status-line"></div>
-        <span>© 2016-2020 <a href="https://judge0.com">Judge0</a> · Powered by <a href="https://rapidapi.com/hermanzdosilovic/api/judge0">the most advanced open-source online code execution system</a>
+        <span>© 2020 <a href="https://about.codebulbs.com">Codebulbs</a> · Powered by <a href="https://rapidapi.com/hermanzdosilovic/api/judge0">Judge0</a>
         <span id="status-line"></span>
     </div>
 </body>

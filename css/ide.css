@@ -144,6 +144,14 @@ body {
     position: fixed;
 }
 
+#site-footer-1 {
+    background-color: transparent;
+    bottom: 0;
+    height: 100px;
+    padding: 16px 5px;
+    position: fixed;
+}
+
 #site-footer {
     color: #bdbdbd;
     left: 0;
