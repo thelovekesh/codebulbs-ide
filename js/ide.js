@@ -166,8 +166,7 @@ function showMessages() {
 }
 function loadMessages() {
     $.ajax({
-        url: `https://ide.codebulbs.com/messages.json`,
-      //?${Date.now()}
+      url: `https://ide.codebulbs.com/message.json?${Date.now()}`,
       type: "GET",
       headers: {
         Accept: "application/json",
