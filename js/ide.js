@@ -142,12 +142,8 @@ function localStorageGetItem(key) {
 }
 
 function showMessages() {
-    var width =
-        $updates.offset().left -
-        parseFloat($updates.css("padding-left")) -
-        $navigationMessage.parent().offset().left -
-        parseFloat($navigationMessage.parent().css("padding-left")) -
-        5;
+    var width = $updates.offset().left - parseFloat($updates.css("padding-left")) -
+                $navigationMessage.parent().offset().left - parseFloat($navigationMessage.parent().css("padding-left")) - 5;
 
     if (width < 200 || messagesData === undefined) {
         return;
@@ -168,18 +164,17 @@ function showMessages() {
 
     $navigationMessage.html(combinedMessage);
 }
-
 function loadMessages() {
     $.ajax({
-        url: `https://minio.judge0.com/public/ide/messages.json?${Date.now()}`,
-        type: "GET",
-        headers: {
-            Accept: "application/json",
-        },
-        success: function(data, textStatus, jqXHR) {
-            messagesData = data;
-            showMessages();
-        },
+      url: `https://ide.codebulbs.com/messages.json?${Date.now()}`,
+      type: "GET",
+      headers: {
+        Accept: "application/json",
+      },
+      success: function (data, textStatus, jqXHR) {
+        messagesData = data;
+        showMessages();
+      },
     });
 }
 
