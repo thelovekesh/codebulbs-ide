@@ -1,7 +1,8 @@
-var defaultUrl = localStorageGetItem("api-url") || "http://161.35.135.64";
+var defaultUrl =
+    localStorageGetItem("api-url") || "https://codebulbs-ide.t-u.me";
 var apiUrl = defaultUrl;
 var wait = localStorageGetItem("wait") || false;
-var pbUrl = "http://161.35.135.64/";
+var pbUrl = "https://codebulbs-ide.t-u.me";
 var check_timeout = 200;
 
 var blinkStatusLine = (localStorageGetItem("blink") || "true") === "true";
@@ -1474,25 +1475,25 @@ var languageIdTable = {
     1019: 19,
 };
 
-// var extraApiUrl = "https://secure.judge0.com/extra";
-// var languageApiUrlTable = {
-//     1001: extraApiUrl,
-//     1002: extraApiUrl,
-//     1003: extraApiUrl,
-//     1004: extraApiUrl,
-//     1005: extraApiUrl,
-//     1006: extraApiUrl,
-//     1007: extraApiUrl,
-//     1008: extraApiUrl,
-//     1009: extraApiUrl,
-//     1010: extraApiUrl,
-//     1011: extraApiUrl,
-//     1012: extraApiUrl,
-//     1013: extraApiUrl,
-//     1014: extraApiUrl,
-//     1015: extraApiUrl,
-//     1016: extraApiUrl,
-//     1017: extraApiUrl,
-//     1018: extraApiUrl,
-//     1019: extraApiUrl,
-// };
+var extraApiUrl = "https://secure.judge0.com/extra";
+var languageApiUrlTable = {
+    1001: extraApiUrl,
+    1002: extraApiUrl,
+    1003: extraApiUrl,
+    1004: extraApiUrl,
+    1005: extraApiUrl,
+    1006: extraApiUrl,
+    1007: extraApiUrl,
+    1008: extraApiUrl,
+    1009: extraApiUrl,
+    1010: extraApiUrl,
+    1011: extraApiUrl,
+    1012: extraApiUrl,
+    1013: extraApiUrl,
+    1014: extraApiUrl,
+    1015: extraApiUrl,
+    1016: extraApiUrl,
+    1017: extraApiUrl,
+    1018: extraApiUrl,
+    1019: extraApiUrl,
+};
