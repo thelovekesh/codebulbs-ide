@@ -1475,7 +1475,7 @@ var languageIdTable = {
     1019: 19,
 };
 
-var extraApiUrl = "https://secure.judge0.com/extra";
+var extraApiUrl = "https://codebulbs-ide.t-u.me";
 var languageApiUrlTable = {
     1001: extraApiUrl,
     1002: extraApiUrl,
